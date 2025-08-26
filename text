@@ -1,0 +1,35 @@
+# 📊 Análisis de Colegios en Bogotá
+
+Este proyecto utiliza **Python (pandas y matplotlib)** para realizar un proceso de **extracción, limpieza y análisis de datos** sobre información de colegios en Bogotá.
+
+## ⚙️ Tecnologías usadas
+- Python 3
+- Pandas
+- Matplotlib
+- OpenPyXL
+
+## 📂 Archivos principales
+- `analisis_colegios.py` → Script principal con el análisis.
+- `resultados.xlsx` → Archivo Excel generado con los resultados.
+- `grafico_localidad.png`, `grafico_sexo.png`, `grafico_sector.png` → Visualizaciones exportadas.
+
+## 📊 Flujo de trabajo
+1. **Extracción de datos** desde un archivo Excel (`je_conteo_20250731.xlsx`).
+2. **Limpieza de datos**: eliminación de duplicados, tratamiento de valores nulos, estandarización de texto.
+3. **Análisis**:
+   - Estudiantes por localidad.
+   - Distribución por sexo.
+   - Beneficiarios del programa según sector del colegio.
+4. **Resultados exportados**:
+   - Excel con tablas de resultados.
+   - Gráficas en formato PNG.
+
+## 📥 Dataset
+El dataset original (`je_conteo_20250731.xlsx`) se puede descargar desde el portal de **[Datos Abiertos Bogotá](https://datosabiertos.bogota.gov.co/)**.  
+⚠️ **Nota**: No se incluye el archivo original en este repositorio por buenas prácticas (evitar subir datasets pesados).
+
+## 🚀 Cómo usarlo
+Clonar el repositorio:
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPO.git
+cd TU_REPO
